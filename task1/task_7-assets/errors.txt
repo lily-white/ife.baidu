@@ -1,0 +1,2 @@
+[2017-07-18 15:47:13] layer "weibo.png": Duplicate path: weibo.png
+[2017-06-23 15:13:52] layer "someone@email.com": Unsupported extension: com

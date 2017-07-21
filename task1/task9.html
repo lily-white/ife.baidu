@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>task9</title>
+    <link rel="stylesheet" type="text/css" href="css/task9.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo"></div>
+            <div class="logon">登录</div>
+            <input type="text" class="search-input"></input>
+        </div>
+    </header>
+    <div class="main">
+        <div class="left">
+            <div class="person">
+                <div class="avatar"></div>
+                <div class="name">ABC123</div>
+            </div>
+            <ul class="num-block">
+                <li>
+                    110 <br>
+                    <span>收藏</span>
+                </li>
+                <li>
+                    313 <br>
+                    <span>粉丝</span>
+                </li>
+            </ul>
+            <div class="menu">
+                <div class="menu-block active">
+                    <div class="menu-first"><span class="icon-file"></span>个人报表</div>
+                    <div class="menu-sub">
+                        <div class="menu-block2">
+                            <div class="menu-second"><span class="arrow"></span><span class="icon-file2"></span>文件一</div>
+                        </div>
+                        <div class="menu-block2 active">
+                            <div class="menu-second"><span class="arrow"></span><span class="icon-file2"></span>文件二</div>
+                            <div class="menu-sub2 active">
+                                <div class="menu-third"><span class="icon-file3"></span>文档1</div>
+                                <div class="menu-third"><span class="icon-file3"></span>文档1</div>
+                            </div>
+                        </div>
+                        <div class="menu-block2">
+                            <div class="menu-second"><span class="arrow"></span><span class="icon-file2"></span>文件三</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-block">
+                    <div class="menu-first"><span class="icon-star"></span>个人收藏</div>
+                </div>
+                <div class="menu-block">
+                    <div class="menu-first"><span class="icon-share"></span>我的分享</div>
+                </div>
+                <div class="menu-block">
+                    <div class="menu-first"><span class="icon-star"></span>图库</div>
+                </div>
+                <div class="menu-block">
+                    <div class="menu-first"><span class="icon-star"></span>成长记录</div>
+                </div>
+                <div class="menu-block">
+                    <div class="menu-first"><span class="icon-account"></span>账户信息</div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="thumbnail">
+                <a href="">C站</a>  / <a href="">个人报表</a> / <a href="">文件一</a>／<a href="" class="current">文档一</a>
+            </div>
+            <div class="container">
+                <form>
+                <div class="search-block">
+                    <div class="search-item">
+                        <label>查询项</label>
+                        <select>
+                            <option>第一项</option>
+                        </select>
+                    </div>
+                    <div class="search-item change-item">
+                        <div class="btn-change"></div>
+                        <div class="item-row">
+                            <label>买方</label>
+                            <select>
+                                <option>小A</option>
+                            </select>
+                        </div>
+                        <div class="item-row">
+                            <label>卖方</label>
+                            <select>
+                                <option>小C</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search-item">
+                        <div class="item-row">
+                            <label>日期</label>
+                            <input type="text" value="2016-04-01" readonly="readonly">
+                            <label>总耗时</label>
+                            <select>
+                                <option>8 天</option>
+                            </select>
+                        </div>
+                        <div class="item-row">
+                            <label>人数</label>
+                            <select>
+                                <option>10 人</option>
+                            </select>
+                            <label>成交项</label>
+                            <select class="wide-select">
+                                <option>10 项</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="search-item">
+                        <input type="submit" value="搜索" class="btn-search">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
