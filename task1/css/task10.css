@@ -1,0 +1,35 @@
+.flexbox div{
+    border: 1px solid #f00;
+    width: 150px;
+}
+.flexbox .first {
+    height: 120px;
+}
+.flexbox .second {
+    height: 100px;
+}
+.flexbox .third {
+    height: 40px;
+}
+.flexbox .four {
+    height: 200px;
+    border: 1px solid #0f0;
+}
+@media screen and (min-width: 640px) {
+    .flexbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 640px) {
+    .flexbox {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .four {
+        order: -1;
+    }
+}
