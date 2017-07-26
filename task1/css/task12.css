@@ -1,0 +1,83 @@
+th {
+    background: #000;
+    color: #fff;
+}
+tr:nth-child(2),
+tr:nth-child(3),
+tr:nth-child(4) {
+    color: red;
+}
+tr:nth-of-type(odd) {
+    background: #bebebe;
+}
+input:focus {
+    width: 200px;
+    border: 1px solid blue;
+}
+input {
+    width: 50px;
+    transition: width 2s;
+}
+.banner {
+    background: #fff;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;   
+}
+ul {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+}
+li {
+    float: left;
+    background: rgba(255, 255, 255, 0.6);
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+.slide {
+    left: -200%;
+    transition: left 2s;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    padding: 0;
+}
+.slide li {
+    width: 200px;
+    height: 100px;
+    margin: 0;
+}
+.block {
+    width: 200px;
+    height: 100px;
+    background: green;
+}
+.slide li:nth-child(2) .block{
+    background: blue;
+}
+.slide li:nth-child(3) .block{
+    background: red;
+}
+#block1:target~.slide {
+    left: -200%;
+}
+#block2:target~.slide {
+    left: -100%;
+}
+#block3:target~.slide {
+    left: 0;
+}
